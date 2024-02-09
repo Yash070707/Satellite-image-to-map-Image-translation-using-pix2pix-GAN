@@ -1,1 +1,3 @@
-# Satellite-image-to-map-Image-translation-using-pix2pix-GAN
+1. Implemented a pix2pix Generative Adversarial Network (GAN) to translate satellite images into corresponding maps, employing a generator to produce fake images resembling maps and a discriminator to differentiate between real and fake images.
+2. Utilized convolutional layers in the discriminator and generator architectures, incorporating skip connections and employing L1 loss in addition to binary cross entropy loss to train the generator effectively.
+3. Developed a comprehensive training pipeline, including functions to load, preprocess, and visualize image data, enabling efficient training and evaluation of the GAN model for satellite image-to-maps translation.
